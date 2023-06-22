@@ -298,6 +298,7 @@ body {
     background-color: transparent;
     padding: 30px;
     border-radius: 5px;
+    border: 1px solid white;
 }
 
 .timeline-content h3 {
@@ -402,6 +403,10 @@ body {
     .teamContainer {
         width: 90vw;
     }
+
+    .timeline h1 {
+        font-size: 5rem;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -428,6 +433,10 @@ body {
     .nsccTeam h1 {
         font-size: 2rem;
     }
+
+    .timeline h1 {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -441,5 +450,9 @@ body {
 
     .topContent h3 {
         font-size: 0.6rem;
+    }
+
+    .timeline h1 {
+        font-size: 3.5rem;
     }
 }
