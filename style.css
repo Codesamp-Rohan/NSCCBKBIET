@@ -214,3 +214,59 @@ body::-webkit-scrollbar {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .topContent h2 {
+        font-size: 3rem
+    }
+
+    .topContent h1 {
+        font-size: 6rem;
+    }
+
+    .navbarOption {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topContent h2 {
+        font-size: 2rem
+    }
+
+    .topContent h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .topContent h2 {
+        font-size: 1.6rem
+    }
+
+    .topContent h1 {
+        font-size: 3rem;
+    }
+
+    .topContent h3 {
+        font-size: 1rem;
+    }
+
+    .nsccAbout h1 {
+        font-size: 2rem;
+    }
+
+    .nsccAbout p {
+        font-size: 1rem;
+    }
+
+    .nsccTeam h1 {
+        font-size: 2rem;
+    }
+}
