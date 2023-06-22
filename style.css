@@ -237,21 +237,57 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 600px) {
     .topContent h2 {
-        font-size: 2rem
+        font-size: 2.4rem
     }
 
     .topContent h1 {
-        font-size: 4rem;
+        font-size: 5.4rem;
+    }
+
+    .teamContainer {
+        gap: 10px;
+    }
+
+    .navbar {
+        padding: 17px;
+    }
+
+    .navbar section img {
+        width: 30px;
+    }
+
+    .navbar button {
+        height: 40px;
+        width: 120px;
+        font-size: 0.71rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .topContent h2 {
+        font-size: 2.4rem
+    }
+
+    .topContent h1 {
+        font-size: 5rem;
+    }
+
+    .aboutSection {
+        width: 90vw;
+    }
+
+    .teamContainer {
+        width: 90vw;
     }
 }
 
 @media screen and (max-width: 470px) {
     .topContent h2 {
-        font-size: 1.6rem
+        font-size: 2rem
     }
 
     .topContent h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .topContent h3 {
@@ -268,5 +304,19 @@ body::-webkit-scrollbar {
 
     .nsccTeam h1 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topContent h2 {
+        font-size: 1.8rem
+    }
+
+    .topContent h1 {
+        font-size: 3.5rem;
+    }
+
+    .topContent h3 {
+        font-size: 0.6rem;
     }
 }
