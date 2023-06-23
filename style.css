@@ -366,7 +366,7 @@ body {
     }
 
     .topContent h1 {
-        font-size: 5.4rem;
+        font-size: 4.6rem;
     }
 
     .teamContainer {
@@ -398,7 +398,7 @@ body {
     }
 
     .topContent h1 {
-        font-size: 5rem;
+        font-size: 4.6rem;
     }
 
     .aboutSection {
@@ -450,7 +450,7 @@ body {
     }
 
     .topContent h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .topContent h3 {
@@ -459,5 +459,19 @@ body {
 
     .timeline h1 {
         font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .topContent h2 {
+        font-size: 1.8rem
+    }
+
+    .topContent h1 {
+        font-size: 2.8rem;
+    }
+
+    .topContent h3 {
+        font-size: 0.6rem;
     }
 }
